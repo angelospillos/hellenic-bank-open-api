@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (@ViewData["accessToken"] == null)
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome!</h1>
+        <p>Auth <a href="https://openbanking.hellenicbank.com"> API</a>.</p>
+        <p>Single Payment <a href="https://openbanking.hellenicbank.com/definition/4191237f29f541edab78eddd09545990/tag/1)%20Hellenic%20Bank%20Open%20APIs"> API</a>.</p>
+        <p>Single Payment Status Report <a href="https://openbanking.hellenicbank.com/definition/7db231d81f2344c0b93c47e8176cab15/tag/1)%20Hellenic%20Bank%20Open%20APIs"> API</a>.</p>
+        <p>Mass Payment <a href="https://openbanking.hellenicbank.com/definition/31d6a4d978af459fafa494a69d59e0b5/tag/1)%20Hellenic%20Bank%20Open%20APIs"> API</a>.</p>
+        <p>Mass Payment Status Report <a href="https://openbanking.hellenicbank.com/definition/41fa6d05f73c4063833341c49f57ef69/tag/1)%20Hellenic%20Bank%20Open%20APIs"> API</a>.</p>
+    </div>
+}
+
+@if (@ViewData["accessToken"] != null)
+{
+    <div class="text-center">
+        <h1 class="display-5">Good Job!</h1>
+        <h2 class="display-5">You are connected!</h2>
+
+        <p>Save the following values to be able to use on the other APIs</p>
+
+        <p>Access Token: @ViewData["accessToken"]</p>
+        <p>Refresh Token: @ViewData["refreshToken"]</p>
+    </div>
+}

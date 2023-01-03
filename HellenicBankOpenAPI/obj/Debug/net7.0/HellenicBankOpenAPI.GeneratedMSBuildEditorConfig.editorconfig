@@ -1,0 +1,62 @@
+is_global = true
+build_property.RefitInternalNamespace = HellenicBankOpenAPI
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HellenicBankOpenAPI
+build_property.RootNamespace = HellenicBankOpenAPI
+build_property.ProjectDir = /Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/MassPayment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFzc1BheW1lbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/MassPaymentStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFzc1BheW1lbnRTdGF0dXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/SinglePayment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luZ2xlUGF5bWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/SinglePaymentStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luZ2xlUGF5bWVudFN0YXR1cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ccm0kgvm4y

@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Mass Payment Status";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Payment Status Page</h1>
+
+    @if (ViewData["PaymentDetails"] != null)
+    {
+        <h2>@ViewData["PaymentDetails"]</h2>
+    }
+
+    <form method="post">
+        <fieldset>
+            <legend>Make payment Customer</legend>
+            <div>
+                <label for="AccessToken">Access Token:</label>
+                <input type="text" id="AccessToken" name="AccessToken" value="@ViewData["accessToken"]"/>
+            </div>
+            <div>
+                <label for="PaymentId">Payment Id:</label>
+                <input type="text" id="PaymentId" name="PaymentId" value="..."/>
+            </div>
+            <div>
+                <input type="submit" id="submit" name="submit" value="Submit"/>
+            </div>
+        </fieldset>
+    </form>
+</div>

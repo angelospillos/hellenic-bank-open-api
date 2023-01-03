@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Single Payment Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Payment</h1>
+
+    @if (ViewData["PaymentDetails"] != null)
+    {
+        <h2>@ViewData["PaymentDetails"]</h2>
+    }
+
+    <form method="post">
+        <fieldset>
+            <legend>Make payment Customer</legend>
+            <div>
+                <label for="AccessToken">Access Token:</label>
+                <input type="text" id="AccessToken" name="AccessToken" value="@ViewData["accessToken"]"/>
+            </div>
+            <div>
+                <label for="Amount">Amount:</label>
+                <input type="text" id="Amount" name="Amount" value="100.00"/>
+            </div>
+            <div>
+                <label for="Currency">Currency:</label>
+                <input type="text" id="Currency" name="Currency" value="EUR"/>
+            </div>
+            <div>
+                <label for="DebtorAccount">Debtor Account:</label>
+                <input type="text" id="DebtorAccount" name="DebtorAccount" value="CY44005000121234567384564932"/>
+            </div>
+            <div>
+                <label for="DebtorBic">Debtor BIC:</label>
+                <input type="text" id="DebtorBic" name="DebtorBic" value="HEBACY2NXXX"/>
+            </div>
+            <div>
+                <label for="BeneficiaryAccount">Beneficiary Account:</label>
+                <input type="text" id="BeneficiaryAccount" name="BeneficiaryAccount" value="CY40005000121234567384543567"/>
+            </div>
+            <div>
+                <label for="BeneficiaryName">Beneficiary Name:</label>
+                <input type="text" id="BeneficiaryName" name="BeneficiaryName" value="Joe Doe"/>
+            </div>
+
+            <div>
+                <input type="submit" id="submit" name="submit" value="Submit"/>
+            </div>
+
+        </fieldset>
+    </form>
+</div>

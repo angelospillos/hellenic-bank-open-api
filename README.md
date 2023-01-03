@@ -3,6 +3,9 @@ Hellenic Bank Open API .NET C# B2B Example
 
 It’s a platform of financial APIs offered by Hellenic Bank. Companies or developers interested in using the APIs can register and test them in a sandbox environment. The APIs' openness and modularity allow customers to experiment and innovate. The standards allow them to connect their systems very quickly. Openness to 3rd party solutions (e.g. FinTechs) enables platforms for partnerships and integrated value chains.
 
+![alt text](PREVIEW.png "Title")
+
+
 
 ## Getting Started
 

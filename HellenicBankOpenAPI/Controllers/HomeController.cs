@@ -4,6 +4,7 @@ using HellenicBankOpenAPI.Hellenic.Models;
 using HellenicBankOpenAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using Refit;
 
 namespace HellenicBankOpenAPI.Controllers;
@@ -45,14 +46,12 @@ public class HomeController : Controller
                     queryParams
                 );
 
-                // TODO: Save the token somewhere
                 HttpContext.Session.Set("accessToken", Encoding.UTF8.GetBytes(token.AccessToken));
                 HttpContext.Session.Set("refreshToken", Encoding.UTF8.GetBytes(token.RefreshToken));
 
                 _logger.LogInformation("token {token}", token.AccessToken);
-
-                ViewData["accessToken"] = token.AccessToken;
-                ViewData["refreshToken"] = token.RefreshToken;
+                
+                ViewData["TokenDetails"] = JsonConvert.SerializeObject(token, Formatting.Indented);;
 
                 _settings.AccessToken = token.AccessToken;
 

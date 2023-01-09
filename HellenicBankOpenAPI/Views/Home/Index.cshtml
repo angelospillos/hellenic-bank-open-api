@@ -14,7 +14,7 @@
     </div>
 }
 
-@if (@ViewData["accessToken"] != null)
+@if (@ViewData["tokenDetails"] != null)
 {
     <div class="text-center">
         <h1 class="display-5">Good Job!</h1>
@@ -22,7 +22,7 @@
 
         <p>Save the following values to be able to use on the other APIs</p>
 
-        <p>Access Token: @ViewData["accessToken"]</p>
-        <p>Refresh Token: @ViewData["refreshToken"]</p>
+        <pre style="text-align: left;">@ViewData["TokenDetails"]</pre>
+
     </div>
 }

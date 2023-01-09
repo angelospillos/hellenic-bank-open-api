@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj": {}
+    "/Users/angelospillos/Projects/boc/hellenic-bank-open-api/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj": {}
   },
   "projects": {
-    "/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj": {
+    "/Users/angelospillos/Projects/boc/hellenic-bank-open-api/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj",
+        "projectUniqueName": "/Users/angelospillos/Projects/boc/hellenic-bank-open-api/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj",
         "projectName": "HellenicBankOpenAPI",
-        "projectPath": "/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj",
+        "projectPath": "/Users/angelospillos/Projects/boc/hellenic-bank-open-api/HellenicBankOpenAPI/HellenicBankOpenAPI.csproj",
         "packagesPath": "/Users/angelospillos/.nuget/packages/",
-        "outputPath": "/Users/angelospillos/RiderProjects/HellenicBankOpenAPI/HellenicBankOpenAPI/obj/",
+        "outputPath": "/Users/angelospillos/Projects/boc/hellenic-bank-open-api/HellenicBankOpenAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/angelospillos/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
             "Refit": {
               "target": "Package",
               "version": "[6.3.2, )"

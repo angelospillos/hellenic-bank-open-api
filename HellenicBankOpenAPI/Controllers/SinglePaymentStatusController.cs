@@ -1,9 +1,9 @@
-using System.Text.Json;
 using HellenicBankOpenAPI.Hellenic;
 using HellenicBankOpenAPI.Hellenic.Models;
 using HellenicBankOpenAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using Refit;
 
 namespace HellenicBankOpenAPI.Controllers;
@@ -54,7 +54,7 @@ public class SinglePaymentStatusController : Controller
 
             var payment = await _hellenicClient.GetCreditTransfer(accessToken, _settings.ClientId, getParams);
             _logger.LogInformation("Payment {0}", payment);
-            ViewData["PaymentDetails"] = JsonSerializer.Serialize(payment);
+            ViewData["PaymentDetails"] = JsonConvert.SerializeObject(payment, Formatting.Indented);;
             return View(model);
         }
         catch (ApiException e)
